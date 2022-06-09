@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./main.js"></script>
+    <script src="./buttonCustom.js"></script>
+    <script type='text/javascript' src="./buttonDownload.js"></script>
+    <title>Rocketcard</title>
+  </head>
+  <body>
+    <section class="app">
+      <div class="card">
+        <p>Compartilhe seu #rocketcard</p>
+        <div id="first-cover">
+          <div class="second-cover">
+            <div class="avatarAndlogo">
+                <div class="img-logo">
+                <img src="./assets/logo.svg" alt="logo by rocketseat" />
+                </div>
+              <p></p>
+            </div>
+            <div class="img-avatar">
+              <img src="" alt="image by avatar github" />
+            </div>
+            <div class="avatar-informations">
+              <div class="followers">
+                <img src="./assets/followers.svg" alt="image by followers" />
+                <p></p>
+              </div>
+              <div class="following">
+                <img src="./assets/following.svg" alt="image by followings" />
+                <p></p>
+              </div>
+              <div class="repos">
+                <img src="./assets/repository.svg" alt="image by repository" />
+                <p></p>
+              </div>
+              <div class="company">
+                <img src="./assets/company.svg" alt="image by company" />
+                <p></p>
+              </div>
+              <div class="location">
+                <img src="./assets/location.svg" alt="image by location" />
+                <p></p>
+              </div>
+            </div>
+            <div class="footer-logo">
+              <img src="./assets/logo.svg" alt="logo by rocketseat" />
+              <p>ROCKETCARD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-button">
+        <p>Customizar</p>
+        <button id="app-button-one" class="custom-app" onclick=" ChangeBorderColor()">Gerar background</button>
+        <p>Download</p>
+        <button id="app-button-two" class="custom-app" onclick=" download()">Baixar card</button>
+      </div>
+    </section>
+  </body>
+</html>

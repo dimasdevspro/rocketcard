@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+:root {
+    --bg: #000000;
+    --bg-card: #0E1218;
+    --text: #F1F1F1;
+    --img-profile: #8257e5;
+    --buttons: #FFF;
+    --border-button: #1A1A1A;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-card)
+}
+
+.app {
+    position: relative;
+    top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+#first-cover {
+    position: relative;
+    height: 43.3125rem;
+    width: 27.375rem;
+    background-color: var(--bg);
+    border-radius: 3.125rem;
+}
+
+.second-cover {
+    position:absolute;
+    height: 40.25rem;
+    width: 24.4375rem;
+    margin: 1.5rem;
+    
+    border-radius: 3.125rem;
+    background-color: var(--bg-card);
+}
+
+.card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 1.25rem;
+}
+
+.avatarAndlogo {
+    display: flex;
+
+    align-items: center;
+
+    height: 3.375rem;
+    margin: 2.3125rem 0 0 2.125rem;
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.375rem;
+    width: 3.4375rem;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+}
+
+.img-logo img {
+    height: 2.3125rem;
+    width: 1.875rem;
+}
+
+.avatarAndlogo p {
+    margin-left: 1.215rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.img-avatar img {
+    position: relative;
+    right: -1rem;
+    height: 23.125rem;
+
+    width: 23.25rem;
+    border-radius: 50%;
+
+}
+
+.avatar-informations {
+    display: flex;
+    flex-direction: column;
+    height: 12.1875rem;
+    width: 12.1875rem;
+    opacity: 0.9;
+    background-image: linear-gradient(to bottom, transparent, #000000, #464545, #3e3838);
+    border-radius: 50px;
+    margin: -6rem 11.875rem 2.125rem 1.3125rem;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.followers, .following, .repos, .company, .location{
+   display: flex;
+align-items: center;
+    position: relative;
+    left: .5rem;
+}
+
+.followers img, .following img, .repos img, .company img, .location img {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.5625rem;
+}
+
+.followers p, .following p, .repos p, .company p, .location p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1.6875rem 11rem;
+}
+
+.footer-logo img {
+    height: 2.125rem;
+    width: 1.75rem;
+    margin-right: 0.6875rem;
+}
+
+.app-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9.125rem ;
+}
+
+.app-button p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem ;
+    font-weight: normal;
+    color: #ffffff;
+    margin-bottom: 2.0625rem;
+    text-align: center;
+}
+
+.app-button button {
+    width: 14.3125rem;
+    height: 3.75rem;
+    border-radius: 0.9375rem;
+    background-color: var(--border-button);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9375rem ;
+    font-weight: normal;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#app-button-one {
+    margin-bottom: 3rem;
+}
