@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -178,4 +182,21 @@ align-items: center;
 
 #app-button-one {
     margin-bottom: 3rem;
+}
+
+/*============media-queries=============*/
+
+@media screen and (max-width: 800px){
+    .app {
+        display: block;
+    }
+
+    .app-button, #app-button-one, #app-button-two {
+        margin: auto;
+    }
+
+    .app-button p {
+        margin-top: 2.0625rem;
+    }
+
 }
